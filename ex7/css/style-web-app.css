@@ -1,0 +1,199 @@
+body {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 15px;
+  font-style: none;
+  line-height: 26px;
+  font-weight: 300;
+  overflow-x: hidden !important;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 52px;
+  font-weight: 300;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-family: 'Lora', serif, 'Lato';
+    margin-top: -10px;
+}
+
+.fundo-tela {
+  background-image: url("../images/inova.png");
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 725px;
+}
+
+/**
+ * ===============================
+ *  Section Heading Section Defult Style 
+ * ===============================
+ */
+.section-heading {
+  position: relative;
+  padding-bottom: 20px;
+  margin: -204px 37px 20px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+}
+.section-heading:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  height: 10px;
+  width: 50px;
+  margin-left: 9px;
+  background-repeat: no-repeat;
+}
+.section-header .section-heading {
+  text-align: center;
+}
+.section-header .section-heading:after {
+  left: 50%;
+  margin-left: -25px;
+}
+.section-header .section-heading-normal {
+  font-family: 'Lora', serif;
+  line-height: 40px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.section-header p {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+/**
+ * ===============================
+ *  Section Top and Bottom padding  
+ * ===============================
+ */
+.section-separator {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+/**
+ * ===============================
+ *  Section Top and Bottom padding  
+ * ===============================
+ */
+.section-separator {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+/**
+ * ===============================
+ *   Defult Button Style
+ * ===============================
+ */
+.btn {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  border-width: 1px;
+  margin-left: 13px;
+  margin-top: 25px;
+  border-style: solid;
+  border-radius: 0;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 13px 22px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  outline: 0;
+  position: relative;
+  min-width: 220px;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+.btn .fa {
+  padding: 3px 3px 3px 6px;
+  border: 0px solid transparent !important;
+  font-size: 28px !important;
+  position: relative;
+  top: 4px;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.btn.btn-icon {
+  padding: 8px 65px 15px 65px;
+}
+.btn.btn-icon .fa-left {
+  right: 18px;
+}
+.btn.btn-icon .fa-right {
+  left: 18px;
+}
+.btn.btn-fill {
+  color: #000;
+}
+.btn.btn-fill .fa {
+  color: #000;
+  border-color: #000;
+}
+.btn.btn-fill:hover .fa {
+  color: #fff;
+  border-color: #fff;
+}
+.btn.btn-border {
+  background-color: transparent;
+  color: #fff;
+}
+.btn.btn-border .fa {
+  color: #fff;
+  border-color: #fff;
+}
+.btn.btn-border:hover {
+  color: #000;
+}
+.btn.btn-border:hover .fa {
+  color: #000;
+  border-color: #000;
+}
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color !important;
+  outline-offset: -2px;
+}
+.btn-text-link {
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+
+
+
+
+
+

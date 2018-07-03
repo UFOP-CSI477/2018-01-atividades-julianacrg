@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulário</title>
+
+
+		<link rel="stylesheet" type="text/css" href="css.css">
+
+	</head>
+	<body>
+
+		<div id="conteudo">
+
+		<h1>Cadastro</h1>
+
+		<form name="cadastro" method="post" >
+
+			<input type="hidden" name="id" value="12345">
+
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome"/><br><br>
+
+			<label for="nascimento">Data de Nascimento:</label>
+			<input type="date" name="nascimento"><br><br>	
+
+			<label for="sexo">Sexo:</label>
+			<input type="radio" name="genero" value="F">Feminino
+			<input type="radio" name="genero" value="M">Masculino
+			<br><br>		
+
+			<div id="listaRegiao">
+				<label for="regiao">Região:</label>
+				<select name="regiao">
+
+					<option value="">Selecione estado</option>
+					<option value="1">Região Norte</option>
+					<option value="2">Região Nordeste</option>
+					<option value="3">Região Centro-Oeste</option>
+					<option value="4">Região Sudeste</option>
+					<option value="5">Região Sul</option>
+				</select>
+			</div>
+
+			<br>
+			<label for="interesse">Interesse:</label>
+			<br><br><input type="checkbox" name="interesse">Amigos<br>
+			<input type="checkbox" name="interesse">Trabalho<br>
+			<input type="checkbox" name="interesse">Relacionamento<br>
+			<input type="checkbox" name="interesse">Estudo<br><br>
+
+			<label for="sobre">Fala um pouco sobre você:</label><br>
+			<textarea name="sobre" cols="35" rows="5"></textarea><br><br>			
+			
+			<label for="usuario">Usuario:</label>
+			<input type="text" name="usuario"/><br><br>
+
+			<label for="senha">Senha:</label>
+			<input type="password" name="senha"/><br><br>		
+
+			<input type="submit" value="Cadastrar"/>
+			<input type="reset" value="Limpar"/>
+
+		</form>
+
+		<br><a href="menu.html"><button>Voltar</button></a>
+		</div>
+
+	</body>
+</html>

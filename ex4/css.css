@@ -1,0 +1,34 @@
+body {
+        color: #000;
+        font: 12px Verdana, sans-serif, Helvetica;
+        }
+
+a:link {
+        color: #666;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 8px;
+        display: block;
+        }
+
+#conteudo {
+        width: 70%;
+        float: right;
+        text-align: center;
+        }
+
+#comBordaComplexa {
+    border-collapse: collapse; /* CSS2 */
+    background: #FFFFF0;
+    border: dashed red 1px; /* Precedência tem bug no IE */
+}
+ 
+#comBordaComplexa td {
+    border: 1px dotted blue;
+}
+ 
+#comBordaComplexa th {
+    border: 1px solid blue;
+    border-bottom: 2px solid green;
+    background: #F0FFF0;
+}

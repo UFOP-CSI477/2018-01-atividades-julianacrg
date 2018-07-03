@@ -1,0 +1,170 @@
+
+html * {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: 'Lato', sans-serif;
+	background-color:transparent;
+
+
+	
+}
+.fundo-tela {
+  /*background-image: url("../images/inova.png"); */
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: -60px;
+  margin-bottom: -60px;
+
+}
+
+.container{
+  padding-right: 120px;
+}
+
+.col-sm-8{
+	margin-top: -15px;
+	font-size: 14px;
+	font-style: none;
+	line-height: 26px;
+}
+
+
+input{
+	box-sizing: 340px;
+	box-align: center;
+}
+
+.form-text{
+	width: 360px;
+}
+
+form {
+    margin-top: 10px;
+    margin-bottom: -3px;
+    color: #11000e;
+    text-align: center;
+}
+
+button.btn{
+	font-size: 15px;
+}
+
+/**
+ * ===============================
+ *  Section Heading Section Defult Style 
+ * ===============================
+ */
+.section-heading {
+  position: relative;
+  padding-bottom: 20px;
+  margin:0px 0px 20px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+}
+
+.section-heading:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  height: 10px;
+  width: 50px;
+  margin-left: 55px;
+  background-repeat: no-repeat;
+}
+
+/**
+ * ===============================
+ *  FIM... Section Heading Section Defult Style 
+ * ===============================
+ */
+
+
+/**
+*PARTE DA NEWSLETTER
+*/
+
+
+
+/**
+*FIM DA PARTE DE SERVIÇOS
+*/
+
+#button_home{
+  width: 100px;
+  text-align: center;
+  font-size: 13px;
+}
+
+/**HOME*/
+#separator{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    margin-left: -73px;
+}
+
+
+
+.login{
+  font-family: 'Nunito';
+  text-align: center;
+  padding: 10%;
+}
+.login-box{
+  display: block;
+  padding: 20px;
+  border:1px solid #ddd;
+  margin: auto;
+  width: 350px;
+}
+
+.login form{
+  text-align: center;
+  align-content: center;
+}
+
+.login input.login-button, button.login-button{
+  font-size: 13px;  
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: -moz-linear-gradient(
+    top,
+    #f79191 0%,
+    #ff0000);
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#f79191),
+    to(#ff0000));
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  border: 0px solid #2ea100;
+  -moz-box-shadow:
+  0px 1px 3px rgba(000,000,000,0.5),
+  inset 0px 0px 1px rgba(0,0,0,0.5);
+  -webkit-box-shadow:
+  0px 1px 3px rgba(000,000,000,0.5),
+  inset 0px 0px 1px rgba(0,0,0,0.5);
+  box-shadow:
+  0px 1px 3px rgba(000,000,000,0.5),
+  inset 0px 0px 1px rgba(0,0,0,0.5);
+  text-shadow:
+  1px 1px 0px rgba(000,000,000,1),
+  0px 1px 0px rgba(255,255,255,1);
+}
+
+
+/*FIM DE LOGIN*/
